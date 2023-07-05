@@ -1,0 +1,15 @@
+{
+  "name": "vivia-renderer-art-template",
+  "version": "0.0.1",
+  "description": "vivia renderer art-template",
+  "author": "Saurlax <saurlax@qq.com>",
+  "keywords": [
+    "vivia",
+    "renderer",
+    "art-template"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "art-template": "^4.13.2"
+  }
+}
