@@ -1,13 +1,16 @@
 {
-  "name": "vivia-renderer-art-template",
+  "name": "vivia-art-template",
   "version": "0.0.1",
-  "description": "vivia renderer art-template",
+  "description": "vivia art-template",
   "author": "Saurlax <saurlax@qq.com>",
   "keywords": [
     "vivia",
-    "renderer",
     "art-template"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saurlax/vivia-art-template.git"
+  },
   "license": "MIT",
   "dependencies": {
     "art-template": "^4.13.2"
