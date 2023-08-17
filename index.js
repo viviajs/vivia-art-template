@@ -1,9 +1,9 @@
 const template = require('art-template')
 
 module.exports = config => {
-  return ctx => {
-    ctx.type = 'html'
-    ctx.content = ctx.content.toString()
-    ctx.content = template.render(ctx.template, ctx, config)
+  return context => {
+    context.path = context.path.replace(/\.[^\.]+$/, '.html')
+    context.content = context.content.toString()
+    context.content = template.render(context.template, context, config)
   }
 }
