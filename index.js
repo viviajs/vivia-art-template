@@ -4,6 +4,9 @@ module.exports = config => {
   return context => {
     context.path = context.path.replace(/\.[^\.]+$/, '.html')
     context.content = context.content.toString()
-    context.content = template(context.template, context)
+    context.content = template.compile({
+      ...config,
+      filename: context.template
+    })(context)
   }
 }
